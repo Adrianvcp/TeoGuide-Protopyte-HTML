@@ -1,0 +1,170 @@
+jQuery("#simulation")
+  .on("click", ".s-12419a77-a331-4e8b-90e9-70807ca3ac3b .click", function(event, data) {
+    var jEvent, jFirer, cases;
+    if(data === undefined) { data = event; }
+    jEvent = jimEvent(event);
+    jFirer = jEvent.getEventFirer();
+    if(jFirer.is("#s-Hotspot_3")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/6ad92310-cf6d-482a-9fa5-f4ca1f79825e",
+                    "transition": {
+                      "type": "pop",
+                      "duration": 500
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_4")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/71854493-87f6-440c-bb65-31dbb2a6ab19",
+                    "transition": {
+                      "type": "pop",
+                      "duration": 500
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_5")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/92a0a45b-5332-4c14-bca7-753d0ed0340b",
+                    "transition": {
+                      "type": "pop",
+                      "duration": 500
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_6")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/f4dc6d8d-5bfe-443d-8e35-4da841dfda55",
+                    "transition": {
+                      "type": "pop",
+                      "duration": 500
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_1")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/4429c76e-4e9e-433e-ab3b-4fa3d6beb31a",
+                    "transition": {
+                      "type": "pop",
+                      "duration": 500
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_2")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/12419a77-a331-4e8b-90e9-70807ca3ac3b",
+                    "transition": {
+                      "type": "pop",
+                      "duration": 500
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    }
+  });

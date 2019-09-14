@@ -1,0 +1,17 @@
+#s-6ad92310-cf6d-482a-9fa5-f4ca1f79825e #s-Image_1 {
+  -ms-transform: rotate(0.0deg);
+}
+.devMobile #jim-container .ui-page {
+  overflow-x: hidden;
+}
+.non_jim_mobile #simulation {
+  overflow-x: hidden;
+}
+.web #simulation {
+  overflow-x: hidden;
+}
+#s-6ad92310-cf6d-482a-9fa5-f4ca1f79825e > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}
